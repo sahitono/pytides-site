@@ -1,20 +1,22 @@
 [tool.poetry]
 name = "pytides-site"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Sahit Tuntas Sadono <26474008+sahitono@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 pandas = "^1.3.0"
 streamlit = "^0.84.0"
 pytides2 = "^0.0.5"
 plotly = "^5.1.0"
-altair = "^4.1.0"
+UTide = "^0.2.6"
+matplotlib = "^3.5.0"
 
 [tool.poetry.dev-dependencies]
 black = "^21.6b0"
 isort = "^5.9.2"
+mypy = "^0.910"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
